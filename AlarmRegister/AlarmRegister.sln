@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.11.35327.3
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AlarmRegister.ConsoleApp", "AlarmRegister.ConsoleApp\AlarmRegister.ConsoleApp.csproj", "{24627158-6CA8-4A8B-87C5-E4801A9C4B74}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AlarmRegister.ConsoleApp", "AlarmRegister.ConsoleApp\AlarmRegister.ConsoleApp.csproj", "{24627158-6CA8-4A8B-87C5-E4801A9C4B74}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AlarmRegister.Domain", "AlarmRegister.Domain\AlarmRegister.Domain.csproj", "{CF86233F-7B8E-4FD2-B4EC-057AAA7233FA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{24627158-6CA8-4A8B-87C5-E4801A9C4B74}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{24627158-6CA8-4A8B-87C5-E4801A9C4B74}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{24627158-6CA8-4A8B-87C5-E4801A9C4B74}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CF86233F-7B8E-4FD2-B4EC-057AAA7233FA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF86233F-7B8E-4FD2-B4EC-057AAA7233FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF86233F-7B8E-4FD2-B4EC-057AAA7233FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF86233F-7B8E-4FD2-B4EC-057AAA7233FA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
