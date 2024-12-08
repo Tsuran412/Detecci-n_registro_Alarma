@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace AlarmRegister.Domain.ValueObjects
 {
-    public class RecoveryDate
+    public class OutRange
     {
         public Var var;
-        public string date;
+        public float range;
     }
 }

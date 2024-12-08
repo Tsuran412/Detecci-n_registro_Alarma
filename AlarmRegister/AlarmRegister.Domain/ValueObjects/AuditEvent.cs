@@ -8,7 +8,7 @@ namespace AlarmRegister.Domain.Entities
 {
     public class AuditEvent
     {
-        string action;
+        string action { get; set; }
         string date;
         Operators operators;
     }

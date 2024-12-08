@@ -8,9 +8,15 @@ namespace AlarmRegister.Domain.Entities
 {
     public class Operators
     {
-        public string name;
-        public int ID;
-        public int Cell_contact;
+        public string name { get; }
+        public int ID { get; }
+        public int Cell_contact { get; }
+        public Operators(string name, int ID,int Cell_contact)
+        {
+            this.name = name;
+            this.ID = ID;
+            this.Cell_contact = Cell_contact;
+        }
 
     }
 }

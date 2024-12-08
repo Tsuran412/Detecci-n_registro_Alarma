@@ -14,8 +14,8 @@ namespace AlarmRegister.Domain.Entities
         public string OcurrenceDate;
         public RecoveryDate a;
         public Priority type_priority;
-        public float OutRange;
+        public OutRange outrange;
         public Var var;
-        public bool isactive() { }
+        public bool isactive;
     }
 }
